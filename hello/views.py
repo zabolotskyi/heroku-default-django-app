@@ -8,7 +8,7 @@ from .models import Greeting
 def index(request):
     r = requests.get('http://httpbin.org/status/418')
     print(r.text)
-    return HttpResponse('<pre>' + 'STAGING' + '</pre>')
+    return HttpResponse('<pre>' + 'PRODUCTION' + '</pre>')
 
 
 
