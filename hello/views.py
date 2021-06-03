@@ -11,7 +11,7 @@ def index(request):
     times = int(os.environ.get('TIMES', 3))
     # r = requests.get('http://httpbin.org/status/418')
     # print(r.text)
-    return HttpResponse('Hello from DEV! ' * times)
+    return HttpResponse('Hello from PR on branch HEROKU-1! ' * times)
 
 
 
